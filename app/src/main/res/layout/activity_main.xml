@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background"
+tools:context="com.maptest.com.maptest.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="22 PM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#fbffffff"
+            android:layout_marginTop="160dp"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="GOOD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="55sp"
+            android:textColor="#e265d340"
+            android:layout_marginBottom="28dp"
+            android:id="@+id/textView2"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#60988a6e"
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:width="1dp"
+            android:background="@drawable/home7"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="447dp"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:width="1dp"
+            android:background="@drawable/visited"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="447dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/button3"
+            android:layout_toEndOf="@+id/button3" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:width="1dp"
+            android:background="@drawable/map"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="447dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/button"
+            android:layout_toStartOf="@+id/button"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:width="1dp"
+            android:background="@drawable/health"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            tools:layout_editor_absoluteY="447dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

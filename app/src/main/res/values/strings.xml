@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Google map v2 Custom Infowindow</string>
+    <string name="title_activity_location_details">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_recommendation">RecommendationActivity</string>
+</resources>
